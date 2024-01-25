@@ -156,12 +156,13 @@ table {
 
 .content-form {
   display: flex;
-  width: 500px;
+  width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .form-data {
-  width: 100%;
+  width: 500px;
   margin: 50px;
   align-items: center;
 }
