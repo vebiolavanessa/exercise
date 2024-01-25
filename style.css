@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,200;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,200;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   font-size: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav {
@@ -27,11 +30,13 @@
 
 .nav-logo {
   color: #3f3f3f;
+  margin-left: 20px;
 }
 
 .nav-menu {
   display: flex;
   gap: 10px;
+  margin-right: 20px;
 }
 
 .nav-menu-contact-me {
@@ -52,35 +57,128 @@
 }
 
 .content-left {
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
-  padding: 50px;
-  flex: 1;
+  padding: 20px;
+  flex: 2;
 }
 
 .content-left div {
-  gap: 10px;
+  margin: 10px;
 }
 
 .content-left-bg {
-  background-color: grey;
-  padding: 10px;
+  background-color: #d9d9d9;
+  padding: 5px;
   border-radius: 10px;
 }
 
 .content-right {
-  background-color: black;
+  /* background-color: green; */
   width: 100%;
   flex: 5;
 }
 
 .content-left img {
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: 300px;
   border-radius: 10px;
 }
 
 .content-left-socmed div {
   display: flex;
   gap: 5px;
+}
+
+.content-right {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+  /* padding: 20px; */
+  gap: 25px;
+}
+
+.content-right-big {
+  flex: 2;
+}
+
+.content-right-small {
+  flex: 1;
+  margin-top: 75px;
+  margin-right: 20px;
+}
+
+.content-right-big-detail img {
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+
+.content-right-small-list img {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.content-table {
+  display: flex;
+  /* width: 100%; */
+  /* background-color: gray; */
+}
+
+.table-data {
+  width: 100%;
+  margin: 50px;
+}
+
+.content-form {
+  display: flex;
+  width: 500px;
+  align-items: center;
+}
+
+.form-data {
+  width: 100%;
+  margin: 50px;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: green;
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
 }
